@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/wb/Documents/projects/Reentrancy_Attack/contracts/Attacker.sol": {
+      "lastModificationDate": 1752783380429,
+      "contentHash": "d80f723663de26a7b0ea3e1d07fb27bc",
+      "sourceName": "contracts/Attacker.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Attacker",
+        "IVulnerableBank"
+      ]
+    },
+    "/Users/wb/Documents/projects/Reentrancy_Attack/contracts/VulnerableBank.sol": {
+      "lastModificationDate": 1752783371410,
+      "contentHash": "df9c558722d8ca1eb8bf05ef5a32a419",
+      "sourceName": "contracts/VulnerableBank.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VulnerableBank"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "reentrancy-attack-demo",
+  "version": "1.0.0",
+  "description": "Demo of reentrancy attack using Hardhat",
+  "scripts": {
+    "test": "npx hardhat test",
+    "attack": "npx hardhat run scripts/attack.js"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.20.2"
+  }
+}
